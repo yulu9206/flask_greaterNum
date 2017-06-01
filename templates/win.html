@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	#wrapper{
+		text-align: center;
+	}
+	#result{
+		width: 200px;
+		background-color: green;
+		padding: 50px;
+		margin:50px auto;	
+	}
+</style>
+<body>
+<div id="wrapper">
+<h1>Welcome to the Great Number Game!</h1>
+<p>I am thinking of a number between 1 and 100</p>
+<p>Take a guess!</p>
+<div id='result'>
+<h1>{{result}} was the number!</h1>
+<form action="play_again">
+	<input type="submit" name="submit" value="play again" >
+</form>
+</div>
+</body>
+</html>

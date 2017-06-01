@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.row{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome to the Great Number Game!</h1>
+<p>I am thinking of a number between 1 and 100</p>
+<p>Take a guess!</p>
+<h1>{{result}}</h1>
+<form action="/guess" method="post">
+	<input type="text" name="first" class="row">
+	<input type="submit" name="submit" class="row">
+</form>
+</body>
+</html>
